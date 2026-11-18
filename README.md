@@ -65,6 +65,8 @@ Parked is free and needs no account. Open the link, install it, and you get your
 
 I designed the idea and its requirements (the problem, the three statuses, text and voice input, the size limit, mobile-first, v1/v2 split). The first version of the code was written with Claude (Anthropic). I deployed it, tested it on my phone, and I'm iterating on it from real use. The prompts that shaped it are in [docs/prompts.md](docs/prompts.md).
 
+From here on, commits that include AI-written changes carry a `Co-authored-by: Claude` trailer. The earlier commits (README, docs and license) were also written with Claude's help but were pushed without it.
+
 ## Run locally
 
 Any static server works, for example `python3 -m http.server`, then open `http://localhost:8000`. Service workers and voice input need HTTPS or localhost.
